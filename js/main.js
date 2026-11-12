@@ -27,8 +27,38 @@ document.addEventListener('DOMContentLoaded', () => {
        1. MENÚ MÓVIL
        ------------------------------------------------------------------ */
     const menuBtn = document.getElementById('mobile-menu-btn');
-    if (menuBtn) {
-        menuBtn.addEventListener('click', toggleMobileMenu);
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    // Abrir/Cerrar con el botón de hamburguesa
+    if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener('click', () => {
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+                setTimeout(() => {
+                    mobileMenu.classList.remove('scale-y-0', 'opacity-0');
+                    mobileMenu.classList.add('scale-y-100', 'opacity-100');
+                }, 10);
+            } else {
+                mobileMenu.classList.remove('scale-y-100', 'opacity-100');
+                mobileMenu.classList.add('scale-y-0', 'opacity-0');
+                setTimeout(() => {
+                    mobileMenu.classList.add('hidden');
+                }, 300);
+            }
+        });
+
+        // Cerrar el menú automáticamente al hacer clic en un enlace
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                // Animación de cierre
+                mobileMenu.classList.remove('scale-y-100', 'opacity-100');
+                mobileMenu.classList.add('scale-y-0', 'opacity-0');
+                setTimeout(() => {
+                    mobileMenu.classList.add('hidden');
+                }, 300);
+            });
+        });
     }
 
     /* ------------------------------------------------------------------
