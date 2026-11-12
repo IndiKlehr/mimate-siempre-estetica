@@ -1,0 +1,23 @@
+# ==============================================================================
+# ARCHIVO DE CABECERAS DE SEGURIDAD HTTP PARA NETLIFY (_headers)
+# Proyecto: MÍMATE SIEMPRE Estética (Solange Klehr)
+# ==============================================================================
+
+/*
+  # 1. Anti-Clickjacking: Impide que la web sea incrustada dentro de un <iframe> externo
+  X-Frame-Options: DENY
+
+  # 2. Protección MIME: Evita que el navegador interprete archivos con tipo incorrecto
+  X-Content-Type-Options: nosniff
+
+  # 3. Privacidad de Referencia: Solo envía el origen al navegar a enlaces externos (WhatsApp/Instagram)
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # 4. Permisos del Navegador: Bloquea acceso a hardware innecesario (cámara, micrófono, GPS)
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=()
+
+  # 5. HSTS: Fuerza conexiones HTTPS estrictas durante 1 año incluyendo subdominios
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # 6. Content-Security-Policy (CSP): Lista blanca estricta sin scripts en línea ('unsafe-inline' eliminado en script-src)
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://lh3.googleusercontent.com https://*.googleusercontent.com; frame-src 'self' https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;

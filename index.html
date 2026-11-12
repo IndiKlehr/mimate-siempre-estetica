@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="es">
+
+<head>
+    <!-- ======================================================================
+         METADATOS Y CONFIGURACIÓN DEL DOCUMENTO
+         ====================================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MIMATE SIEMPRE Estética de Solange Klehr en Crespo, Entre Ríos. Ozonoterapia corporal, vacumterapia en glúteos, lipoláser, exfoliación y faciales glow.">
+    <meta property="og:title" content="MIMATE SIEMPRE Estética | De Solange Klehr · Crespo, Entre Ríos">
+    <meta property="og:description" content="Tu espacio exclusivo en Crespo. Ozonoterapia corporal, vacumterapia, lipoláser, faciales glow y más.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>MIMATE SIEMPRE Estética | De Solange Klehr · Crespo, Entre Ríos</title>
+
+    <!-- ======================================================================
+         TIPOGRAFÍAS E ICONOGRAFÍA EXTERNA (GOOGLE FONTS & MATERIAL SYMBOLS)
+         ====================================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap">
+
+    <!-- ======================================================================
+         TAILWIND PRIMERO (CDN + CONFIG), LUEGO ESTILOS PROPIOS
+         ====================================================================== -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="js/tailwind-config.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/favicon.jpeg">
+</head>
+
+<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-brand-lavender selection:text-brand-purple">
+
+        <!-- ======================================================================
+         1. BARRA DE NAVEGACIÓN PRINCIPAL
+         ====================================================================== -->
+    <header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_12px_rgba(74,59,120,0.06)] border-b border-brand-lavender/40 transition-all">
+        <div class="h-20 max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-sm">
+            
+            <!-- Identidad Visual / Logo -->
+            <a class="flex items-center gap-2.5 min-w-0 shrink-0" data-path="inicio" href="#inicio" aria-label="Mímate Estética - Inicio">
+                <div class="w-11 h-11 shrink-0 rounded-full overflow-hidden bg-brand-lavender/40 border border-brand-lavender flex items-center justify-center shadow-sm p-0.5">
+                    <img alt="MÍMATE Estética - Solange Klehr" class="w-full h-full object-contain" loading="lazy" decoding="async"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgT85lNmn5xrsMg3Sjf0OB54NSB3XVaa5wbuQQ__mqEWOmyaXDgiYSitx9Zun3T6l-IGbKWv5JRv4dAn6BQvYTuNgxUN14njdo1yzBUlHCrg0vyHe8C-5BbnKVWWENpbKkQebjgPunt4_rGNPEyJpqSmPKHW_o3Et-Bs-aScg4nWxMylNMH39XszvZ8YAx2Mo-zd_0MZ8BYVZdXozsfks4T9DzpCjMyg6LWZXo2jYdU3P7QpXmr_x7sA">
+                </div>
+                <div class="flex flex-col text-left min-w-0 leading-none">
+                    <span class="font-headline-sm text-[15px] sm:text-base tracking-tight text-brand-purple font-bold whitespace-nowrap">MIMATE SIEMPRE · Estética</span>
+                    <span class="font-label-sm text-[10px] tracking-widest uppercase text-on-surface-variant font-medium mt-1 truncate">Solange Klehr · Crespo, ER</span>
+                </div>
+            </a>
+
+            <!-- Enlaces de Navegación (Escritorio) -->
+            <nav aria-label="Navegación principal" class="hidden xl:flex items-center gap-1 p-1 rounded-full bg-surface-container-lowest/80 border border-brand-lavender/40 shadow-sm whitespace-nowrap">
+                <a data-nav="inicio" class="px-3 py-2 rounded-full font-label-lg text-label-lg transition-all text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30" href="#inicio">Inicio</a>
+                <a data-nav="sobre-mi" class="px-3 py-2 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#sobre-mi">Sobre mí</a>
+                <a data-nav="tratamientos" class="px-3 py-2 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#tratamientos">Tratamientos</a>
+                <a data-nav="galeria" class="px-3 py-2 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#galeria">Galería</a>
+                <a data-nav="tratamiento-estrella" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#tratamiento-estrella">
+                    <span class="material-symbols-outlined text-[16px] leading-none" style="font-variation-settings: 'FILL' 1;">star</span>
+                    <span>Tratamiento Estrella</span>
+                </a>
+                <a data-nav="turnos" class="px-3 py-2 rounded-full font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#turnos">Turnos</a>
+            </nav>
+
+            <!-- Botón de Acción Directa a WhatsApp y Menú Mobile -->
+            <div class="flex items-center gap-2 sm:gap-3 shrink-0">
+                <a class="hidden sm:inline-flex items-center justify-center px-4 sm:px-5 py-2.5 rounded-full bg-brand-purple text-white font-label-lg text-label-lg shadow-[0_8px_20px_rgba(74,59,120,0.25)] hover:bg-brand-violet hover:shadow-[0_8px_24px_rgba(106,83,155,0.35)] transition-all transform active:scale-95 whitespace-nowrap"
+                    href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20reservar%20un%20turno%20previo" rel="noopener noreferrer" target="_blank">
+                    <span class="material-symbols-outlined text-sm mr-1.5">calendar_month</span>Reservar
+                </a>
+                
+                <!-- Botón Menú Hamburguesa (Solo celular) -->
+                <button id="mobile-menu-btn" class="xl:hidden w-10 h-10 rounded-full bg-brand-lavender/50 text-brand-purple flex items-center justify-center hover:bg-brand-lavender transition-colors" aria-label="Abrir menú">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Menú Desplegable Mobile -->
+        <div id="mobile-menu" class="hidden xl:hidden absolute top-20 left-0 w-full bg-surface/95 backdrop-blur-xl border-b border-brand-lavender/40 shadow-xl overflow-hidden transition-all duration-300 origin-top scale-y-0 opacity-0">
+            <nav class="flex flex-col p-4 space-y-2">
+                <a data-nav="inicio" class="px-4 py-3 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#inicio" onclick="toggleMobileMenu()">Inicio</a>
+                <a data-nav="sobre-mi" class="px-4 py-3 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#sobre-mi" onclick="toggleMobileMenu()">Sobre mí</a>
+                <a data-nav="tratamientos" class="px-4 py-3 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#tratamientos" onclick="toggleMobileMenu()">Tratamientos</a>
+                <a data-nav="galeria" class="px-4 py-3 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#galeria" onclick="toggleMobileMenu()">Galería</a>
+                <a data-nav="tratamiento-estrella" class="flex items-center gap-2 px-4 py-3 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#tratamiento-estrella" onclick="toggleMobileMenu()">
+                    <span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span> Estrella
+                </a>
+                <a data-nav="turnos" class="px-4 py-3 rounded-xl font-label-lg text-label-lg text-on-surface-variant hover:text-brand-purple hover:bg-brand-lavender/30 transition-all" href="#turnos" onclick="toggleMobileMenu()">Turnos</a>
+                <div class="pt-2 mt-2 border-t border-brand-lavender/30">
+                    <a class="flex items-center justify-center w-full py-3 rounded-full bg-brand-purple text-white font-label-lg text-label-lg shadow-md" href="https://wa.me/5493434291704?text=Hola%20Solange!" target="_blank">
+                        <span class="material-symbols-outlined text-sm mr-2">calendar_month</span> Reservar Turno
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ======================================================================
+         CONTENIDO PRINCIPAL
+         ====================================================================== -->
+    <main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]">
+        <div class="flex flex-col w-full">
+
+            <!-- ==============================================================
+                 2. SECCIÓN HERO (PORTADA PRINCIPAL)
+                 ============================================================== -->
+            <section class="relative w-full py-16 lg:py-24 overflow-hidden bg-gradient-to-b from-brand-lavender-light/40 via-surface to-surface" id="inicio">
+                <!-- Elementos decorativos de fondo -->
+                <div class="absolute -top-32 -right-24 w-96 h-96 rounded-full bg-brand-lavender/50 blur-3xl pointer-events-none"></div>
+                <div class="absolute -bottom-24 -left-20 w-80 h-80 rounded-full bg-secondary-container/60 blur-3xl pointer-events-none"></div>
+
+                <div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+
+                        <!-- Columna Izquierda: Titular, Descripción y Botones CTA -->
+                        <div class="lg:col-span-6 flex flex-col items-start space-y-6 lg:space-y-8 z-10">
+                            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-lavender/50 border border-brand-lavender text-brand-purple shadow-sm">
+                                <span class="w-2 h-2 rounded-full bg-brand-violet animate-pulse"></span>
+                                <span class="font-label-md text-label-md uppercase tracking-wider font-semibold">De Lunes a Sábados con Turno Previo ☆ · Crespo</span>
+                            </div>
+
+                            <h1 class="font-display-lg text-display-lg-mobile lg:text-display-lg text-on-surface tracking-tight leading-tight">
+                                MIMATE SIEMPRE <span class="italic font-normal text-brand-violet block">de Solange Klehr</span>
+                            </h1>
+
+                            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                                Tu espacio exclusivo en Crespo (Entre Ríos). Carpa de Ozonoterapia corporal con exfoliación, Vacumterapia en glúteos, Lipoláser, tratamientos faciales glow y cuidado de pestañas y cejas. Atención 100% personalizada con dedicación garantizada.
+                            </p>
+
+                            <!-- Botones de Acción -->
+                            <div class="flex flex-wrap items-center gap-4 pt-2">
+                                <a class="inline-flex items-center justify-center px-space-lg py-3.5 rounded-full bg-brand-purple text-white font-label-lg text-label-lg shadow-[0_12px_28px_rgba(74,59,120,0.28)] hover:bg-brand-violet transition-all transform active:scale-95 group"
+                                    href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quisiera%20reservar%20un%20turno%20en%20M%C3%ADmate%20Est%C3%A9tica"
+                                    rel="noopener noreferrer" target="_blank">
+                                    <span class="material-symbols-outlined mr-2 text-xl text-green-300">chat</span>
+                                    <span>Reservar Turno al 3434291704</span>
+                                    <span class="material-symbols-outlined ml-2 text-xl group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                                </a>
+                                <a class="inline-flex items-center justify-center px-space-lg py-3.5 rounded-full bg-surface-container-highest/80 text-brand-purple border border-brand-lavender font-label-lg text-label-lg hover:bg-brand-lavender/50 transition-all"
+                                    href="#tratamientos">
+                                    Ver Tratamientos Reales
+                                </a>
+                            </div>
+
+                            <!-- Indicadores Rápidos de Confianza -->
+                            <div class="pt-6 w-full flex flex-wrap items-center gap-5 sm:gap-7 text-on-surface-variant">
+                                <div class="flex items-center gap-2">
+                                    <div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-brand-purple">
+                                        <span class="material-symbols-outlined text-[18px]">location_on</span>
+                                    </div>
+                                    <span class="font-label-md text-label-md font-medium">Esquina Corrientes y Cepeda</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-brand-purple">
+                                        <span class="material-symbols-outlined text-[18px]">schedule</span>
+                                    </div>
+                                    <span class="font-label-md text-label-md font-medium">Lunes a Sábados con Cita</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-brand-purple">
+                                        <span class="material-symbols-outlined text-[18px]">verified</span>
+                                    </div>
+                                    <span class="font-label-md text-label-md font-medium">Aparatología Avanzada</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Columna Derecha: Fotografía en Cabina -->
+                        <div class="lg:col-span-6 relative flex justify-center lg:justify-end">
+                            <div class="relative w-full max-w-md lg:max-w-lg">
+                                <div class="relative overflow-hidden rounded-t-[14rem] rounded-b-3xl shadow-[0_24px_48px_rgba(74,59,120,0.15)] border-4 border-surface-container-lowest bg-surface-container">
+                                    <img alt="Solange Klehr en cabina de estética Mímate en Crespo Entre Ríos"
+                                        loading="lazy" decoding="async"
+                                        class="w-full h-[420px] sm:h-[520px] object-cover object-center transform hover:scale-105 transition-transform duration-700 ease-out"
+                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvtROJuapv6ExVFWBpD_ZnVxQhtztwKNUfMgnfxk1TOSDdGEcL7Kx-WgjYAYA_ikZHsoQ98lCTm_cPowna0L31lDQkQjJdXk6GSjh9DrySp6URV2f8-WSUEGWEluz_XG-zDEvpulNJuBOlM7WPzBzKI02KAeD9rJHaq3AkhejZJxKNKJwnZTkN9Rc0SIAqPa45WNJkyjfLz-U5BwMEEQrawQIhEB6gvoLNlMEhU_SwYs4aKsTWYXX8qA">
+                                    <div class="absolute inset-0 bg-gradient-to-t from-brand-purple/60 via-transparent to-transparent"></div>
+                                    <div class="absolute bottom-6 left-6 right-6 text-white text-left">
+                                        <p class="font-headline-sm text-headline-sm text-white font-medium">Solange Klehr</p>
+                                        <p class="font-body-sm text-body-sm text-white/90">Esteticista · Atención cálida y personalizada</p>
+                                    </div>
+                                </div>
+
+                                <!-- Tarjeta flotante de contacto -->
+                 <div class="absolute -bottom-16 -left-2 sm:left-4 max-w-[calc(100%-0.5rem)] sm:max-w-xs p-4 rounded-2xl bg-surface-container-lowest/95 backdrop-blur-md shadow-xl border border-brand-lavender/50 flex items-center gap-3 z-20">
+                                    <div class="w-12 h-12 rounded-full overflow-hidden bg-brand-lavender/50 border border-brand-violet/20 flex items-center justify-center flex-shrink-0 p-1">
+                                        <img alt="Logo Mimate" class="w-full h-full object-contain"
+                                            loading="lazy" decoding="async"
+                                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgT85lNmn5xrsMg3Sjf0OB54NSB3XVaa5wbuQQ__mqEWOmyaXDgiYSitx9Zun3T6l-IGbKWv5JRv4dAn6BQvYTuNgxUN14njdo1yzBUlHCrg0vyHe8C-5BbnKVWWENpbKkQebjgPunt4_rGNPEyJpqSmPKHW_o3Et-Bs-aScg4nWxMylNMH39XszvZ8YAx2Mo-zd_0MZ8BYVZdXozsfks4T9DzpCjMyg6LWZXo2jYdU3P7QpXmr_x7sA">
+                                    </div>
+                                    <div>
+                                        <div class="flex items-center gap-1 text-amber-500">
+                                            <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                                            <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                                            <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                                            <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                                            <span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                                            <span class="font-label-md text-label-md text-on-surface font-semibold ml-1">Crespo, ER</span>
+                                        </div>
+                                        <p class="font-body-sm text-body-sm text-on-surface-variant font-medium">Turnos al 3434291704</p>
+                                    </div>
+                                </div>
+
+                                <div class="absolute -top-6 -left-6 w-24 h-24 rounded-full bg-brand-lavender/80 -z-10 blur-xl"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==============================================================
+                 3. SECCIÓN SOBRE MÍ (PRESENTACIÓN DE SOLANGE KLEHR)
+                 ============================================================== -->
+            <section class="w-full py-20 bg-surface-container-low border-y border-brand-lavender/30" id="sobre-mi">
+                <div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+
+                        <!-- Retrato Profesional -->
+                        <div class="lg:col-span-5 relative flex justify-center">
+                            <div class="relative w-full max-w-sm rounded-3xl overflow-hidden shadow-xl border-4 border-surface-container-lowest bg-surface-container">
+                                <img alt="Solange Klehr esteticista profesional Mímate Estética Crespo"
+                                    loading="lazy" decoding="async"
+                                    class="w-full h-[460px] object-cover object-top"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuALrIQxQLwUd4-171kha6Pg027q4BkjUgFHHAEVAtsurCYX4MzYWrDnrmy5v0fKNCapP6OohONwxafjJ0CIdMk-M7bAGvszE7KKJWZTU9YmjMG2NSWfQ4FrjYU226KFMYXfIa5ZX_5bNp6erGzNqv1W6kGXXzU0bYvSuUCaoQnZzeFVK5H7YG9ebzGk9hI5QZwGAByJHjlQkoP5pXfXnNdFwwtsBfOFHSbrHnb9pyCaLMmVmzcx-PXDBA">
+                                <div class="absolute top-4 left-4 px-3 py-1 rounded-full bg-brand-purple/90 backdrop-blur-md text-white font-label-sm text-xs font-medium">
+                                    Solange Klehr · Estética
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Biografía y Filosofía de Trabajo -->
+                        <div class="lg:col-span-7 space-y-6">
+                            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-lavender text-brand-purple font-label-sm text-label-sm font-semibold">
+                                <span class="material-symbols-outlined text-base">spa</span>
+                                <span>La profesional detrás de tu bienestar</span>
+                            </div>
+
+                            <h2 class="font-display-md text-display-md-mobile lg:text-display-md text-on-surface leading-tight">
+                                “Elegir calidad y dedicación garantizada en cada sesión”
+                            </h2>
+
+                            <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                                Hola, soy <strong>Solange Klehr</strong>. En <em>Mímate Estética</em> creé un espacio íntimo en Crespo para que cada persona reciba atención sin prisas, con aparatología de vanguardia y protocolos que realmente marcan la diferencia.
+                            </p>
+
+                            <div class="p-5 rounded-2xl bg-surface-container-lowest border border-brand-lavender/60 shadow-sm space-y-2">
+                                <div class="flex items-center gap-2 text-brand-purple font-title-md text-title-md font-semibold">
+                                    <span class="material-symbols-outlined text-[22px]">psychology_alt</span>
+                                    <span>Compromiso con tus resultados</span>
+                                </div>
+                                <p class="font-body-md text-body-md text-on-surface-variant italic">
+                                    “No busco ser la opción exprés ni masiva; soy la profesional a la que eligen cuando buscan confianza, técnica meticulosa y resultados que devuelven la seguridad a tu piel y cuerpo.”
+                                </p>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-xl bg-brand-lavender/50 flex items-center justify-center text-brand-purple">
+                                        <span class="material-symbols-outlined text-[20px]">calendar_today</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-label-lg text-label-lg font-bold text-on-surface">Atención Exclusiva</h4>
+                                        <p class="font-body-sm text-body-sm text-on-surface-variant">Lunes a Sábados con turno previo</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-xl bg-brand-lavender/50 flex items-center justify-center text-brand-purple">
+                                        <span class="material-symbols-outlined text-[20px]">pin_drop</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-label-lg text-label-lg font-bold text-on-surface">Ubicación Crespo</h4>
+                                        <p class="font-body-sm text-body-sm text-on-surface-variant">Corrientes y Cepeda</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pt-2">
+                                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-brand-purple text-white font-label-lg text-label-lg hover:bg-brand-violet transition-all shadow-md"
+                                    href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20hacerte%20una%20consulta"
+                                    rel="noopener noreferrer" target="_blank">
+                                    <span class="material-symbols-outlined text-lg">chat</span>
+                                    <span>Escribirme directamente a WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==============================================================
+                 4. SECCIÓN CARTA DE TRATAMIENTOS EXCLUSIVOS
+                 ============================================================== -->
+            <section class="w-full py-20 lg:py-28 bg-surface" id="tratamientos">
+                <div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+
+                    <!-- Encabezado de Sección -->
+                    <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                        <div class="space-y-3">
+                            <span class="font-label-sm text-label-sm uppercase tracking-widest text-brand-purple font-semibold">Carta de Servicios en Cabina</span>
+                            <h2 class="font-display-md text-display-md-mobile lg:text-display-md text-on-surface">Tratamientos Exclusivos</h2>
+                            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+                                Protocolos corporales y faciales realizados con tecnología específica y técnicas avanzadas en Crespo.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <a class="px-5 py-2.5 rounded-full bg-brand-lavender/50 text-brand-purple border border-brand-lavender font-label-lg text-label-lg hover:bg-brand-purple hover:text-white transition-all flex items-center gap-2"
+                                href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20consultar%20por%20tratamientos"
+                                rel="noopener noreferrer" target="_blank">
+                                <span class="material-symbols-outlined text-sm">schedule</span>
+                                <span>Consultar Turno al 3434291704</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Grilla de Servicios -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                        <!-- Servicio 1: Ozonoterapia Corporal -->
+                        <article class="flex flex-col rounded-3xl bg-surface-container-lowest border border-brand-lavender/60 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                            <div class="p-6 bg-gradient-to-br from-brand-lavender/50 to-brand-lavender-light border-b border-brand-lavender/40 relative">
+                                <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-white/90 text-brand-purple font-label-sm text-label-sm font-bold shadow-sm">Favorito</span>
+                                <div class="w-14 h-14 rounded-2xl bg-white text-brand-purple flex items-center justify-center shadow-sm mb-3 group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[30px]">air</span>
+                                </div>
+                                <span class="font-label-sm text-label-sm uppercase tracking-wider text-brand-violet font-semibold">Incluye Exfoliación Previa</span>
+                                <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 group-hover:text-brand-purple transition-colors">Ozonoterapia Corporal</h3>
+                                <p class="font-label-md text-label-md text-brand-purple font-medium">Carpa de Ozono &amp; Vapor</p>
+                            </div>
+                            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                                <div class="space-y-3">
+                                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                                        Tratamiento corporal detox que utiliza vapor y ozono medicinal para desintoxicar, reactivar y revitalizar la piel de forma integral:
+                                    </p>
+                                    <ul class="space-y-2 font-body-sm text-body-sm text-on-surface">
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span><strong>1. Detox y Drenaje:</strong> Elimina toxinas y favorece el drenaje linfático natural.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span><strong>2. Quema calorías y celulitis:</strong> Estimula el metabolismo y ayuda a reducir tejido adiposo.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span><strong>3. Oxigena y mejora la piel:</strong> Favorece la oxigenación y regeneración celular.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4 border-t border-brand-lavender/40">
+                                    <a class="w-full py-2.5 rounded-full bg-brand-lavender/60 text-brand-purple font-label-md text-label-md font-semibold text-center block hover:bg-brand-purple hover:text-white transition-all"
+                                        href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20consultar%20por%20la%20Ozonoterapia%20Corporal"
+                                        rel="noopener noreferrer" target="_blank">
+                                        Reservar Ozonoterapia
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Servicio 2: Vacumterapia en Glúteos -->
+                        <article class="flex flex-col rounded-3xl bg-surface-container-lowest border border-brand-lavender/60 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                            <div class="p-6 bg-gradient-to-br from-secondary-container/60 to-surface-container-highest border-b border-brand-lavender/40 relative">
+                                <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-white/90 text-brand-purple font-label-sm text-label-sm font-bold shadow-sm">Modelado</span>
+                                <div class="w-14 h-14 rounded-2xl bg-white text-brand-purple flex items-center justify-center shadow-sm mb-3 group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[30px]">accessibility_new</span>
+                                </div>
+                                <span class="font-label-sm text-label-sm uppercase tracking-wider text-brand-violet font-semibold">Copas de Vacío</span>
+                                <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 group-hover:text-brand-purple transition-colors">Vacumterapia en Glúteos</h3>
+                                <p class="font-label-md text-label-md text-brand-purple font-medium">Levanta, reafirma y tonifica</p>
+                            </div>
+                            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                                <div class="space-y-3">
+                                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                                        Técnica mecánica no invasiva mediante copas de succión continua y pulsátil diseñada para estimular la circulación sanguínea y el tejido conjuntivo.
+                                    </p>
+                                    <ul class="space-y-2 font-body-sm text-body-sm text-on-surface">
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span><strong>Efecto Push-Up:</strong> Levanta y moldea los glúteos de forma progresiva.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span><strong>Reafirma tejido:</strong> Estimula la producción de colágeno y elastina.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span><strong>Mejora la celulitis:</strong> Despega adherencias y drena líquidos retenidos.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4 border-t border-brand-lavender/40">
+                                    <a class="w-full py-2.5 rounded-full bg-brand-lavender/60 text-brand-purple font-label-md text-label-md font-semibold text-center block hover:bg-brand-purple hover:text-white transition-all"
+                                        href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20consultar%20por%20Vacumterapia%20en%20gl%C3%BAteos"
+                                        rel="noopener noreferrer" target="_blank">
+                                        Consultar Vacumterapia
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Servicio 3: Lipoláser No Invasivo -->
+                        <article class="flex flex-col rounded-3xl bg-surface-container-lowest border border-brand-lavender/60 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                            <div class="p-6 bg-gradient-to-br from-brand-lavender/40 to-surface-container-high border-b border-brand-lavender/40 relative">
+                                <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-white/90 text-brand-purple font-label-sm text-label-sm font-bold shadow-sm">Tecnología Médica</span>
+                                <div class="w-14 h-14 rounded-2xl bg-white text-brand-purple flex items-center justify-center shadow-sm mb-3 group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[30px]">flare</span>
+                                </div>
+                                <span class="font-label-sm text-label-sm uppercase tracking-wider text-brand-violet font-semibold">Junto a @glowesteticacrespo</span>
+                                <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 group-hover:text-brand-purple transition-colors">Lipoláser No Invasivo</h3>
+                                <p class="font-label-md text-label-md text-brand-purple font-medium">Modelado y contorno corporal</p>
+                            </div>
+                            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                                <div class="space-y-3">
+                                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                                        Tecnología láser diodo frío para disolver adiposidad localizada sin agujas ni período de recuperación.
+                                    </p>
+                                    <ul class="space-y-2 font-body-sm text-body-sm text-on-surface">
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Reducción efectiva de grasa localizada en abdomen, flancos y piernas.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Resultados visibles desde la primera sesión.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Tratamiento 100% indoloro, seguro y relajante.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4 border-t border-brand-lavender/40">
+                                    <a class="w-full py-2.5 rounded-full bg-brand-lavender/60 text-brand-purple font-label-md text-label-md font-semibold text-center block hover:bg-brand-purple hover:text-white transition-all"
+                                        href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20consultar%20fechas%20de%20Lipolaser"
+                                        rel="noopener noreferrer" target="_blank">
+                                        Consultar Lipoláser
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Servicio 4: Exfoliación Corporal -->
+                        <article class="flex flex-col rounded-3xl bg-surface-container-lowest border border-brand-lavender/60 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                            <div class="p-6 bg-gradient-to-br from-secondary-container/50 to-brand-lavender-light border-b border-brand-lavender/40 relative">
+                                <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-white/90 text-brand-purple font-label-sm text-label-sm font-bold shadow-sm">Piel de Seda</span>
+                                <div class="w-14 h-14 rounded-2xl bg-white text-brand-purple flex items-center justify-center shadow-sm mb-3 group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[30px]">clean_hands</span>
+                                </div>
+                                <span class="font-label-sm text-label-sm uppercase tracking-wider text-brand-violet font-semibold">Renovación Epidérmica</span>
+                                <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 group-hover:text-brand-purple transition-colors">Exfoliación Corporal</h3>
+                                <p class="font-label-md text-label-md text-brand-purple font-medium">Piel suave, luminosa y saludable</p>
+                            </div>
+                            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                                <div class="space-y-3">
+                                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                                        Ritual exfoliante mecánico y nutritivo para devolver suavidad instantánea a cada centímetro de tu piel.
+                                    </p>
+                                    <ul class="space-y-2 font-body-sm text-body-sm text-on-surface">
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Deja la piel súper suave, sedosa y profundamente luminosa.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Elimina impurezas acumuladas y células muertas.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Ayuda a prevenir y tratar la foliculitis (pelitos encarnados).</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Activa la microcirculación y relaja los sentidos.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4 border-t border-brand-lavender/40">
+                                    <a class="w-full py-2.5 rounded-full bg-brand-lavender/60 text-brand-purple font-label-md text-label-md font-semibold text-center block hover:bg-brand-purple hover:text-white transition-all"
+                                        href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20un%20turno%20para%20Exfoliaci%C3%B3n%20Corporal"
+                                        rel="noopener noreferrer" target="_blank">
+                                        Pedir Turno Exfoliación
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Servicio 5: Faciales & Glow -->
+                        <article class="flex flex-col rounded-3xl bg-surface-container-lowest border border-brand-lavender/60 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                            <div class="p-6 bg-gradient-to-br from-brand-lavender/50 to-surface-container-high border-b border-brand-lavender/40 relative">
+                                <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-white/90 text-brand-purple font-label-sm text-label-sm font-bold shadow-sm">Rostro Radiante</span>
+                                <div class="w-14 h-14 rounded-2xl bg-white text-brand-purple flex items-center justify-center shadow-sm mb-3 group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[30px]">face</span>
+                                </div>
+                                <span class="font-label-sm text-label-sm uppercase tracking-wider text-brand-violet font-semibold">Cuidado Facial Clínico</span>
+                                <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 group-hover:text-brand-purple transition-colors">Faciales &amp; Glow</h3>
+                                <p class="font-label-md text-label-md text-brand-purple font-medium">Higiene, nutrición y luminosidad</p>
+                            </div>
+                            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                                <div class="space-y-3">
+                                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                                        Protocolos a medida para equilibrar tu piel, recuperar la hidratación profunda y devolverle su brillo fresco.
+                                    </p>
+                                    <ul class="space-y-2 font-body-sm text-body-sm text-on-surface">
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Higiene facial profunda con extracción suave y descongestión.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Mascarillas nutritivas, activos botánicos e hidratación intensiva.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Asesoramiento sincero para tu rutina de skincare diario.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4 border-t border-brand-lavender/40">
+                                    <a class="w-full py-2.5 rounded-full bg-brand-lavender/60 text-brand-purple font-label-md text-label-md font-semibold text-center block hover:bg-brand-purple hover:text-white transition-all"
+                                        href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20un%20turno%20para%20Facial%20Glow"
+                                        rel="noopener noreferrer" target="_blank">
+                                        Consultar Facial
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                                                <!-- Servicio 6: Fototerapia con Cabina LED -->
+                        <article class="flex flex-col rounded-3xl bg-surface-container-lowest border border-brand-lavender/60 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                            <div class="p-6 bg-gradient-to-br from-brand-lavender/40 to-surface-container-highest border-b border-brand-lavender/40 relative">
+                                <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-white/90 text-brand-purple font-label-sm text-label-sm font-bold shadow-sm">Tecnología LED</span>
+                                <div class="w-14 h-14 rounded-2xl bg-white text-brand-purple flex items-center justify-center shadow-sm mb-3 group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[30px]">light_mode</span>
+                                </div>
+                                <span class="font-label-sm text-label-sm uppercase tracking-wider text-brand-violet font-semibold">Regeneración Celular</span>
+                                <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 group-hover:text-brand-purple transition-colors">Fototerapia</h3>
+                                <p class="font-label-md text-label-md text-brand-purple font-medium">con Cabina LED</p>
+                            </div>
+                            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                                <div class="space-y-3">
+                                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                                        Tratamiento que utiliza luz de diferentes longitudes de onda para estimular la producción de colágeno y acelerar la reparación de la piel.
+                                    </p>
+                                    <ul class="space-y-2 font-body-sm text-body-sm text-on-surface">
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Favorece la oxigenación y el drenaje linfático.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Reduce la inflamación y mejora la textura de la piel.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Ideal para complementar tratamientos corporales y faciales.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4 border-t border-brand-lavender/40">
+                                    <a class="w-full py-2.5 rounded-full bg-brand-lavender/60 text-brand-purple font-label-md text-label-md font-semibold text-center block hover:bg-brand-purple hover:text-white transition-all"
+                                        href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20consultar%20por%20Fototerapia%20con%20Cabina%20LED"
+                                        rel="noopener noreferrer" target="_blank">
+                                        Consultar Fototerapia
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Servicio 7: Radiofrecuencia Corporal -->
+                        <article class="flex flex-col rounded-3xl bg-surface-container-lowest border border-brand-lavender/60 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                            <div class="p-6 bg-gradient-to-br from-secondary-container/50 to-surface-container-high border-b border-brand-lavender/40 relative">
+                                <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-white/90 text-brand-purple font-label-sm text-label-sm font-bold shadow-sm">Firmeza</span>
+                                <div class="w-14 h-14 rounded-2xl bg-white text-brand-purple flex items-center justify-center shadow-sm mb-3 group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[30px]">waves</span>
+                                </div>
+                                <span class="font-label-sm text-label-sm uppercase tracking-wider text-brand-violet font-semibold">Efecto Lifting</span>
+                                <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 group-hover:text-brand-purple transition-colors">Radiofrecuencia</h3>
+                                <p class="font-label-md text-label-md text-brand-purple font-medium">Corporal</p>
+                            </div>
+                            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                                <div class="space-y-3">
+                                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                                        Ondas electromagnéticas que generan calor profundo para tensar y rejuvenecer los tejidos.
+                                    </p>
+                                    <ul class="space-y-2 font-body-sm text-body-sm text-on-surface">
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Reafirma y tensa la piel flácida.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Estimula la producción natural de colágeno.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Mejora la circulación y la apariencia de la celulitis.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4 border-t border-brand-lavender/40">
+                                    <a class="w-full py-2.5 rounded-full bg-brand-lavender/60 text-brand-purple font-label-md text-label-md font-semibold text-center block hover:bg-brand-purple hover:text-white transition-all"
+                                        href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20consultar%20por%20Radiofrecuencia%20Corporal"
+                                        rel="noopener noreferrer" target="_blank">
+                                        Consultar Radiofrecuencia
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Servicio 8: Electrodos (Electroestimulación) -->
+                        <article class="flex flex-col rounded-3xl bg-surface-container-lowest border border-brand-lavender/60 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                            <div class="p-6 bg-gradient-to-br from-brand-lavender/50 to-brand-lavender-light border-b border-brand-lavender/40 relative">
+                                <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-white/90 text-brand-purple font-label-sm text-label-sm font-bold shadow-sm">Tonificación</span>
+                                <div class="w-14 h-14 rounded-2xl bg-white text-brand-purple flex items-center justify-center shadow-sm mb-3 group-hover:scale-105 transition-transform">
+                                    <span class="material-symbols-outlined text-[30px]">electric_bolt</span>
+                                </div>
+                                <span class="font-label-sm text-label-sm uppercase tracking-wider text-brand-violet font-semibold">Músculos Firmes</span>
+                                <h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 group-hover:text-brand-purple transition-colors">Electrodos</h3>
+                                <p class="font-label-md text-label-md text-brand-purple font-medium">Electroestimulación</p>
+                            </div>
+                            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+                                <div class="space-y-3">
+                                    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                                        Corrientes de baja frecuencia que provocan contracciones musculares para tonificar y reafirmar.
+                                    </p>
+                                    <ul class="space-y-2 font-body-sm text-body-sm text-on-surface">
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Tonifica y fortalece los músculos sin esfuerzo.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Ayuda a reducir medidas y moldear el cuerpo.</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <span class="material-symbols-outlined text-brand-purple text-base mt-0.5">check_circle</span>
+                                            <span>Ideal para abdomen, glúteos y brazos.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4 border-t border-brand-lavender/40">
+                                    <a class="w-full py-2.5 rounded-full bg-brand-lavender/60 text-brand-purple font-label-md text-label-md font-semibold text-center block hover:bg-brand-purple hover:text-white transition-all"
+                                        href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20consultar%20por%20Electrodos%20(Electroestimulaci%C3%B3n)"
+                                        rel="noopener noreferrer" target="_blank">
+                                        Consultar Electrodos
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==============================================================
+                 CARRUSEL COVERFLOW (Después de tratamientos)
+                 ============================================================== -->
+            <section class="w-full py-16 lg:py-24 bg-brand-lavender-light/30 overflow-hidden border-t border-brand-lavender/30" id="galeria">
+                <div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+                    
+                    <div class="text-center mb-12 space-y-3">
+                        <span class="font-label-sm text-label-sm uppercase tracking-widest text-brand-purple font-semibold">Nuestro Espacio en Acción</span>
+                        <h2 class="font-display-md text-display-md-mobile lg:text-display-md text-on-surface">Resultados &amp; algunos aparatos</h2>
+                    </div>
+
+                    <!-- Contenedor relativo para que las fotos absolutas se acomoden acá -->
+                    <div class="relative w-full max-w-5xl mx-auto h-[280px] sm:h-[380px] lg:h-[450px]">
+                        
+                                               <div id="carousel-track" class="relative w-full h-full">
+                            
+                            <!-- Slide 1: 1.jpeg -->
+                            <div class="carousel-slide absolute top-0 left-1/2 -ml-[35%] sm:-ml-[27.5%] lg:-ml-[22.5%] w-[70%] sm:w-[55%] lg:w-[45%] h-full rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 ease-in-out cursor-pointer">
+                                <img src="img/carrusel/1.jpeg" alt="Pestañas" class="w-full h-full object-cover">
+                                <div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-brand-purple/90 to-transparent">
+                                    <p class="text-white font-headline-sm text-lg">Limpieza Facial</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2: 2.jpeg -->
+                            <div class="carousel-slide absolute top-0 left-1/2 -ml-[35%] sm:-ml-[27.5%] lg:-ml-[22.5%] w-[70%] sm:w-[55%] lg:w-[45%] h-full rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 ease-in-out cursor-pointer">
+                                <img src="img/carrusel/2.jpeg" alt="Facial" class="w-full h-full object-cover">
+                                <div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-brand-purple/90 to-transparent">
+                                    <p class="text-white font-headline-sm text-lg">Faciales Glow</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3: 3.mp4 (VIDEO) -->
+                            <div class="carousel-slide absolute top-0 left-1/2 -ml-[35%] sm:-ml-[27.5%] lg:-ml-[22.5%] w-[70%] sm:w-[55%] lg:w-[45%] h-full rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 ease-in-out cursor-pointer bg-black">
+                                <!-- Le saqué "loop" y le puse "preload" para que cargue mejor -->
+                                <video class="w-full h-full object-cover" muted playsinline preload="metadata">
+                                    <source src="img/carrusel/3.mp4" type="video/mp4">
+                                    Tu navegador no soporta videos.
+                                </video>
+                                <div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-brand-purple/90 to-transparent pointer-events-none">
+                                    <p class="text-white font-headline-sm text-lg">Alta frecuencia capilar</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 4: 4.jpeg -->
+                            <div class="carousel-slide absolute top-0 left-1/2 -ml-[35%] sm:-ml-[27.5%] lg:-ml-[22.5%] w-[70%] sm:w-[55%] lg:w-[45%] h-full rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 ease-in-out cursor-pointer">
+                                <img src="img/carrusel/4.jpeg" alt="Lipoláser" class="w-full h-full object-cover">
+                                <div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-brand-purple/90 to-transparent">
+                                    <p class="text-white font-headline-sm text-lg">Cabina LED</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 5: 5.jpeg -->
+                            <div class="carousel-slide absolute top-0 left-1/2 -ml-[35%] sm:-ml-[27.5%] lg:-ml-[22.5%] w-[70%] sm:w-[55%] lg:w-[45%] h-full rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 ease-in-out cursor-pointer">
+                                <img src="img/carrusel/5.jpeg" alt="Vacumterapia" class="w-full h-full object-cover">
+                                <div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-brand-purple/90 to-transparent">
+                                    <p class="text-white font-headline-sm text-lg">Vacumterapia</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 6: 6.jpeg -->
+                            <div class="carousel-slide absolute top-0 left-1/2 -ml-[35%] sm:-ml-[27.5%] lg:-ml-[22.5%] w-[70%] sm:w-[55%] lg:w-[45%] h-full rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 ease-in-out cursor-pointer">
+                                <img src="img/carrusel/6.jpeg" alt="Ozonoterapia" class="w-full h-full object-cover">
+                                <div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-brand-purple/90 to-transparent">
+                                    <p class="text-white font-headline-sm text-lg">Oznoterapia Corporal</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 7: 7.jpeg -->
+                            <div class="carousel-slide absolute top-0 left-1/2 -ml-[35%] sm:-ml-[27.5%] lg:-ml-[22.5%] w-[70%] sm:w-[55%] lg:w-[45%] h-full rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 ease-in-out cursor-pointer">
+                                <img src="img/carrusel/7.jpeg" alt="Aparatología" class="w-full h-full object-cover">
+                                <div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-brand-purple/90 to-transparent">
+                                    <p class="text-white font-headline-sm text-lg">Lipoláser</p>
+                                </div>
+                            </div>
+
+                            <!-- Slide 8: 8.jpeg -->
+                            <div class="carousel-slide absolute top-0 left-1/2 -ml-[35%] sm:-ml-[27.5%] lg:-ml-[22.5%] w-[70%] sm:w-[55%] lg:w-[45%] h-full rounded-3xl overflow-hidden shadow-2xl transition-all duration-500 ease-in-out cursor-pointer">
+                                <img src="img/carrusel/8.jpeg" alt="Depilación" class="w-full h-full object-cover">
+                                <div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-brand-purple/90 to-transparent">
+                                    <p class="text-white font-headline-sm text-lg">Vacumterapia en Gluteos</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Flechas -->
+                        <button id="btn-prev" aria-label="Anterior" class="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-30 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/80 backdrop-blur-md text-brand-purple flex items-center justify-center hover:bg-brand-purple hover:text-white transition-all shadow-xl cursor-pointer">
+                            <span class="material-symbols-outlined">chevron_left</span>
+                        </button>
+                        <button id="btn-next" aria-label="Siguiente" class="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-30 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/80 backdrop-blur-md text-brand-purple flex items-center justify-center hover:bg-brand-purple hover:text-white transition-all shadow-xl cursor-pointer">
+                            <span class="material-symbols-outlined">chevron_right</span>
+                        </button>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==============================================================
+                 5. SECCIÓN TRATAMIENTO ESTRELLA (CARPA DE OZONOTERAPIA)
+                 ============================================================== -->
+            <section class="w-full py-20 bg-brand-lavender-light/60 overflow-hidden" id="tratamiento-estrella">
+                <div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+                    <div class="relative rounded-3xl lg:rounded-[3rem] overflow-hidden bg-brand-purple text-white shadow-2xl">
+                        <div class="grid grid-cols-1 lg:grid-cols-12 min-h-[480px]">
+
+                            <!-- Contenido Descriptivo -->
+                            <div class="lg:col-span-7 p-8 lg:p-14 flex flex-col justify-between">
+                                <div class="space-y-6">
+                                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-violet/40 border border-brand-lavender/30 text-brand-lavender font-label-md text-label-md">
+                                        <span class="material-symbols-outlined text-[18px]">verified</span>
+                                        <span>Tratamiento Estrella en Mímate Crespo</span>
+                                    </div>
+                                    <h2 class="font-headline-lg text-headline-lg lg:text-display-md leading-tight text-white">
+                                        Hoy Hablemos de <br><span class="italic font-normal text-brand-lavender">Ozonoterapia Corporal</span>
+                                    </h2>
+                                    <p class="font-body-md text-body-md text-brand-lavender/90 max-w-xl">
+                                        ¿Qué es? La carpa de ozonoterapia es un tratamiento corporal detox que utiliza vapor y ozono puro para desintoxicar el organismo, quemar calorías y revitalizar la piel. <strong>Incluye exfoliación previa</strong> para optimizar al 100% sus efectos.
+                                    </p>
+
+                                    <!-- 3 Pilares del Tratamiento -->
+                                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+                                        <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
+                                            <div class="w-8 h-8 rounded-lg bg-brand-lavender text-brand-purple flex items-center justify-center mb-2 font-bold text-sm">1</div>
+                                            <h4 class="font-label-lg text-label-lg font-bold text-white">Detox y Drenaje</h4>
+                                            <p class="font-body-sm text-xs text-brand-lavender/80 mt-1">Elimina toxinas y activa drenaje linfático.</p>
+                                        </div>
+                                        <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
+                                            <div class="w-8 h-8 rounded-lg bg-brand-lavender text-brand-purple flex items-center justify-center mb-2 font-bold text-sm">2</div>
+                                            <h4 class="font-label-lg text-label-lg font-bold text-white">Calorías &amp; Celulitis</h4>
+                                            <p class="font-body-sm text-xs text-brand-lavender/80 mt-1">Estimula metabolismo y reduce celulitis.</p>
+                                        </div>
+                                        <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10">
+                                            <div class="w-8 h-8 rounded-lg bg-brand-lavender text-brand-purple flex items-center justify-center mb-2 font-bold text-sm">3</div>
+                                            <h4 class="font-label-lg text-label-lg font-bold text-white">Oxigenación Celular</h4>
+                                            <p class="font-body-sm text-xs text-brand-lavender/80 mt-1">Piel renovada, fresca y más luminosa.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Emblema Visual -->
+                            <div class="lg:col-span-5 bg-gradient-to-br from-brand-violet to-[#382663] p-8 lg:p-12 flex flex-col justify-center items-center text-center relative">
+                                <div class="w-48 h-48 rounded-full bg-brand-lavender/20 border-2 border-brand-lavender/40 flex items-center justify-center p-4 shadow-inner mb-6">
+                                    <div class="w-36 h-36 rounded-full overflow-hidden bg-brand-lavender flex items-center justify-center p-2 shadow-lg">
+                                        <img alt="Mimate Estética de Solange Klehr Logo" class="w-full h-full object-contain"
+                                            loading="lazy" decoding="async"
+                                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgT85lNmn5xrsMg3Sjf0OB54NSB3XVaa5wbuQQ__mqEWOmyaXDgiYSitx9Zun3T6l-IGbKWv5JRv4dAn6BQvYTuNgxUN14njdo1yzBUlHCrg0vyHe8C-5BbnKVWWENpbKkQebjgPunt4_rGNPEyJpqSmPKHW_o3Et-Bs-aScg4nWxMylNMH39XszvZ8YAx2Mo-zd_0MZ8BYVZdXozsfks4T9DzpCjMyg6LWZXo2jYdU3P7QpXmr_x7sA">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==============================================================
+                 6. SECCIÓN UBICACIÓN, HORARIOS Y RESERVA DE TURNOS
+                 ============================================================== -->
+            <section class="w-full py-20 lg:py-28 bg-surface-container-low" id="turnos">
+                <div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin">
+                    <div class="rounded-3xl lg:rounded-[3rem] bg-gradient-to-br from-surface-container-highest via-surface-container to-brand-lavender/30 p-8 sm:p-12 lg:p-16 shadow-xl border border-brand-lavender relative overflow-hidden">
+                        <div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-brand-lavender/60 blur-3xl pointer-events-none"></div>
+
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
+
+                            <!-- Columna Izquierda: Llamado a la Acción -->
+                            <div class="lg:col-span-7 space-y-6">
+                                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white text-brand-purple border border-brand-lavender font-label-sm text-label-sm font-semibold">
+                                    <span class="material-symbols-outlined text-base text-brand-purple">verified</span>
+                                    <span>Atención con Turno Previo ☆ Crespo (Entre Ríos)</span>
+                                </div>
+
+                                <h2 class="font-display-md text-display-md-mobile lg:text-display-md text-on-surface leading-tight">
+                                    Reservá tu momento en MÍMATE Estética
+                                </h2>
+
+                                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg">
+                                    Comunicate directamente con Solange Klehr para reservar tu turno de ozonoterapia, vacumterapia, lipoláser, faciales o exfoliación.
+                                </p>
+
+                                <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                                    <a class="inline-flex items-center justify-center px-8 py-4 rounded-full bg-brand-purple text-white font-label-lg text-label-lg shadow-lg hover:bg-brand-violet transition-all gap-3 transform active:scale-95 group"
+                                        href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20agendar%20un%20turno%20en%20M%C3%ADmate%20Est%C3%A9tica"
+                                        rel="noopener noreferrer" target="_blank">
+                                        <span class="material-symbols-outlined text-2xl text-green-300">chat</span>
+                                        <span>Chatear al WhatsApp: 3434291704</span>
+                                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-lg">arrow_forward</span>
+                                    </a>
+                                </div>
+
+                                <div class="pt-2 flex flex-wrap gap-6 text-on-surface-variant font-label-md text-label-md">
+                                    <div class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-brand-purple text-[18px]">verified_user</span>
+                                        <span>Atención 1 a 1 sin esperas</span>
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                        <span class="material-symbols-outlined text-brand-purple text-[18px]">lock</span>
+                                        <span>Cabina privada y climatizada</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Columna Derecha: Horarios y Mapa Embebido -->
+                            <div class="lg:col-span-5 space-y-4">
+                                <div class="p-6 rounded-2xl bg-white/90 backdrop-blur-md shadow-sm border border-brand-lavender/50 space-y-3">
+                                    <div class="flex items-center gap-3 text-brand-purple">
+                                        <span class="material-symbols-outlined text-[24px]">schedule</span>
+                                        <h4 class="font-title-md text-title-md font-bold">Días y Horarios</h4>
+                                    </div>
+                                    <p class="font-body-md text-body-md text-on-surface">
+                                        Días de atención: <strong class="text-brand-purple">De Lunes a Sábados</strong><br>
+                                        <span class="text-on-surface-variant">Con turno previo acordado por WhatsApp.</span><br>
+                                        Celular directo: <strong class="text-brand-purple">+54 9 343 429-1704</strong>
+                                    </p>
+                                </div>
+
+                               <div class="p-3 rounded-2xl bg-white/90 backdrop-blur-md shadow-sm border border-brand-lavender/50 space-y-2">
+    
+    <!-- Encabezado del Mapa -->
+    <div class="flex items-center justify-between px-2 pt-1 pb-2">
+        <div class="flex items-center gap-2 text-brand-purple">
+            <span class="material-symbols-outlined text-lg">map</span>
+            <span class="font-label-md text-label-md font-semibold">Mapa de Ubicación</span>
+        </div>
+        <a href="https://maps.app.goo.gl/SUUy1A2qutawZBdE7"
+            target="_blank" rel="noopener noreferrer"
+            class="text-xs text-brand-violet hover:text-brand-purple font-semibold hover:underline flex items-center gap-1 transition-colors">
+            <span>Ver en Google Maps</span>
+            <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+        </a>
+    </div>
+
+    <!-- Contenedor del Mapa (Ahora es un enlace clickeable) -->
+    <a href="https://maps.app.goo.gl/SUUy1A2qutawZBdE7" target="_blank" rel="noopener noreferrer" class="block relative w-full h-64 sm:h-72 rounded-xl overflow-hidden border border-brand-lavender/40 shadow-inner group">
+        
+        <!-- Un pequeño overlay para que se note que se puede hacer clic (opcional, al pasar el mouse) -->
+        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors z-10 pointer-events-none flex items-center justify-center">
+            <!-- Si querés un cartelito que diga "Abrir en Maps" al pasar el mouse, lo podés poner acá -->
+        </div>
+
+        <iframe 
+            title="Ubicación Mímate Estética - Crespo, Entre Ríos"
+            class="w-full h-full border-0 pointer-events-none"
+            sandbox="allow-scripts allow-same-origin allow-popups"
+            loading="lazy" 
+            allowfullscreen=""
+            referrerpolicy="strict-origin-when-cross-origin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1537.0764093711928!2d-60.324103796585064!3d-32.030037497700725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b4250034b1b731%3A0x7471a5838bc7f1eb!2smimatesiempre%20Est%C3%A9tica!5e1!3m2!1ses-419!2sar!4v1794497484313!5m2!1ses-419!2sar">
+        </iframe>
+    </a>
+
+</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ======================================================================
+         7. PIE DE PÁGINA (FOOTER INSTITUCIONAL Y LEGAL)
+         ====================================================================== -->
+    <footer class="w-full bg-surface-container-highest/60 text-on-surface mt-20 border-t border-brand-lavender/50">
+        <div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin pt-space-xl pb-space-lg">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg mb-space-xl max-w-4xl mx-auto text-center justify-items-center">
+
+                <!-- Columna 1: Marca y Redes Sociales -->
+                <div class="flex flex-col items-center space-y-space-md text-center">
+                    <div class="flex items-center justify-center gap-3">
+                        <div class="w-12 h-12 rounded-full overflow-hidden bg-brand-lavender/40 border border-brand-lavender flex items-center justify-center p-0.5 shadow-sm">
+                            <img alt="MÍMATE Estética Logo" class="w-full h-full object-contain"
+                                loading="lazy" decoding="async"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgT85lNmn5xrsMg3Sjf0OB54NSB3XVaa5wbuQQ__mqEWOmyaXDgiYSitx9Zun3T6l-IGbKWv5JRv4dAn6BQvYTuNgxUN14njdo1yzBUlHCrg0vyHe8C-5BbnKVWWENpbKkQebjgPunt4_rGNPEyJpqSmPKHW_o3Et-Bs-aScg4nWxMylNMH39XszvZ8YAx2Mo-zd_0MZ8BYVZdXozsfks4T9DzpCjMyg6LWZXo2jYdU3P7QpXmr_x7sA">
+                        </div>
+                        <div class="text-left">
+                            <span class="font-headline-sm text-headline-sm text-brand-purple font-bold tracking-tight block leading-tight">MÍMATE Estética</span>
+                            <span class="text-xs text-brand-violet font-medium">De Solange Klehr · Crespo</span>
+                        </div>
+                    </div>
+
+                    <p class="font-body-md text-body-md text-on-surface-variant max-w-sm mx-auto text-center">
+                        Centro de estética en Crespo especializado en ozonoterapia corporal, vacumterapia en glúteos, lipoláser, faciales glow, pestañas y cejas. Calidad y dedicación garantizada.
+                    </p>
+
+                    <div class="flex items-center justify-center gap-space-sm pt-space-xs">
+                        <a aria-label="Instagram"
+                            class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-brand-purple border border-brand-lavender hover:bg-brand-purple hover:text-white shadow-sm transition-all"
+                            href="https://www.instagram.com/mimatesiempre_estetica_" rel="noopener noreferrer"
+                            target="_blank" title="Instagram @mimatesiempre_estetica_">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.13-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+                            </svg>
+                        </a>
+                        <a aria-label="WhatsApp"
+                            class="w-10 h-10 rounded-full bg-white flex items-center justify-center text-brand-purple border border-brand-lavender hover:bg-brand-purple hover:text-white shadow-sm transition-all"
+                            href="https://wa.me/5493434291704" rel="noopener noreferrer" target="_blank"
+                            title="WhatsApp 3434291704">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Datos de Ubicación y Turnos -->
+                <div class="flex flex-col items-center space-y-space-sm text-center">
+                    <h3 class="font-title-md text-title-md text-brand-purple font-semibold">Ubicación &amp; Contacto</h3>
+                    <div class="space-y-3 font-body-md text-body-md text-on-surface-variant flex flex-col items-center">
+                        <div class="flex items-center justify-center gap-space-xs">
+                            <span class="material-symbols-outlined text-brand-purple text-[20px]">location_on</span>
+                            <span>Esquina Corrientes y Cepeda, Crespo, Entre Ríos</span>
+                        </div>
+                        <div class="flex items-center justify-center gap-space-xs">
+                            <span class="material-symbols-outlined text-brand-purple text-[20px]">phone_iphone</span>
+                            <span>Cel: +54 9 343 429-1704</span>
+                        </div>
+                        <div class="flex items-center justify-center gap-space-xs">
+                            <span class="material-symbols-outlined text-brand-purple text-[20px]">alternate_email</span>
+                            <span class="text-brand-purple font-medium">@mimatesiempre_estetica_</span>
+                        </div>
+                    </div>
+                    <div class="pt-space-xs w-full max-w-xs mx-auto">
+                        <a class="inline-block w-full py-2.5 px-space-md text-center rounded-full bg-brand-purple text-white font-label-lg text-label-lg hover:bg-brand-violet transition-all shadow-sm"
+                            href="https://wa.me/5493434291704?text=Hola%20Solange!%20Quiero%20consultar%20disponibilidad%20de%20turnos"
+                            rel="noopener noreferrer" target="_blank">
+                            Pedir Turno al 3434291704
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Barra Inferior Legal y Créditos -->
+            <div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-label-md text-label-md border-t border-brand-lavender/30">
+                <div class="flex flex-col md:flex-row items-center flex-wrap gap-2 text-center md:text-left">
+                    <p>© 2026 MÍMATE Estética de Solange Klehr · Crespo, Entre Ríos. Todos los derechos reservados.</p>
+                    <span class="hidden md:inline text-brand-lavender">|</span>
+                    <button type="button" data-modal-open="modal-privacidad" class="text-brand-purple hover:underline cursor-pointer">Políticas de Privacidad</button>
+                    <span class="text-brand-lavender">|</span>
+                    <button type="button" data-modal-open="modal-terminos" class="text-brand-purple hover:underline cursor-pointer">Términos y Condiciones</button>
+                </div>
+                <div class="flex items-center gap-space-sm text-center md:text-right">
+                    <span>
+                        Desarrollado por Klehr Indira Ayelen · Web:
+                        <a href="https://klehrindira.com" target="_blank" rel="noopener noreferrer" class="text-brand-purple hover:underline font-semibold">klehrindira.com</a>
+                        · IK Sistemas
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================================================================
+         8. MODALES LEGALES (PRIVACIDAD Y TÉRMINOS)
+         ====================================================================== -->
+    <!-- Modal: Políticas de Privacidad -->
+    <div id="modal-privacidad" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="titulo-privacidad"
+        class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 backdrop-blur-sm p-4">
+        <div class="bg-surface-container-lowest max-w-2xl w-full rounded-3xl p-6 sm:p-8 shadow-2xl border border-brand-lavender max-h-[85vh] overflow-y-auto space-y-4">
+            <div class="flex items-center justify-between pb-3 border-b border-brand-lavender/40">
+                <div class="flex items-center gap-2 text-brand-purple">
+                    <span class="material-symbols-outlined text-2xl">policy</span>
+                    <h3 id="titulo-privacidad" class="font-headline-sm text-headline-sm font-bold">Políticas de Privacidad</h3>
+                </div>
+                <button type="button" aria-label="Cerrar ventana" data-modal-close="modal-privacidad"
+                    class="w-8 h-8 rounded-full bg-brand-lavender/50 text-brand-purple flex items-center justify-center hover:bg-brand-purple hover:text-white transition-colors">
+                    <span class="material-symbols-outlined text-xl">close</span>
+                </button>
+            </div>
+            <div class="space-y-3 font-body-sm text-on-surface-variant leading-relaxed">
+                <p><strong>1. Responsable del Tratamiento:</strong> MÍMATE Estética de Solange Klehr, ubicado en Crespo, Entre Ríos, Argentina.</p>
+                <p><strong>2. Recopilación de Datos:</strong> Los datos proporcionados mediante WhatsApp, llamadas o consultas directas (nombre, teléfono y antecedentes estéticos o cutáneos pertinentes) se utilizan con la exclusiva finalidad de coordinar turnos, personalizar la atención y brindar un seguimiento adecuado de cada sesión.</p>
+                <p><strong>3. Confidencialidad y Seguridad:</strong> No compartimos ni comercializamos tu información personal con terceros. Toda información referente a tu salud dérmica y estética es tratada bajo estricto secreto profesional en cabina.</p>
+                <p><strong>4. Derechos de la Persona Usuaria:</strong> Podés solicitar la rectificación o eliminación de tus datos de contacto en cualquier momento escribiendo a nuestro WhatsApp oficial: <strong>+54 9 343 429-1704</strong>.</p>
+            </div>
+            <div class="pt-3 flex justify-end">
+                <button type="button" data-modal-close="modal-privacidad"
+                    class="px-6 py-2.5 rounded-full bg-brand-purple text-white font-label-md hover:bg-brand-violet transition-colors">
+                    Entendido y Aceptar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Términos y Condiciones -->
+    <div id="modal-terminos" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="titulo-terminos"
+        class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 backdrop-blur-sm p-4">
+        <div class="bg-surface-container-lowest max-w-2xl w-full rounded-3xl p-6 sm:p-8 shadow-2xl border border-brand-lavender max-h-[85vh] overflow-y-auto space-y-4">
+            <div class="flex items-center justify-between pb-3 border-b border-brand-lavender/40">
+                <div class="flex items-center gap-2 text-brand-purple">
+                    <span class="material-symbols-outlined text-2xl">gavel</span>
+                    <h3 id="titulo-terminos" class="font-headline-sm text-headline-sm font-bold">Términos y Condiciones</h3>
+                </div>
+                <button type="button" aria-label="Cerrar ventana" data-modal-close="modal-terminos"
+                    class="w-8 h-8 rounded-full bg-brand-lavender/50 text-brand-purple flex items-center justify-center hover:bg-brand-purple hover:text-white transition-colors">
+                    <span class="material-symbols-outlined text-xl">close</span>
+                </button>
+            </div>
+            <div class="space-y-3 font-body-sm text-on-surface-variant leading-relaxed">
+                <p><strong>1. Modalidad de Atención:</strong> Todas las sesiones y consultas en <em>MÍMATE Estética</em> se brindan exclusivamente con <strong>turno previo programado</strong> para garantizar puntualidad, privacidad y atención 100% personalizada.</p>
+                <p><strong>2. Reserva y Cancelaciones:</strong> Las citas se coordinan vía WhatsApp al +54 9 343 429-1704. Rogamos avisar con un mínimo de 24 horas de anticipación en caso de reprogramación o cancelación para permitir la asignación del espacio a otra persona.</p>
+                <p><strong>3. Consentimiento y Evaluación en Cabina:</strong> Tratamientos corporales y faciales (como Carpa de Ozonoterapia, Vacumterapia, Lipoláser o Peelings) contemplan una valoración previa del estado cutáneo. La persona declara no omitir contraindicaciones médicas (marcapasos, embarazo o afecciones específicas cuando aplique).</p>
+                <p><strong>4. Higiene y Bioseguridad:</strong> Todos los insumos y aparatología cumplen rigurosos estándares de desinfección y bioseguridad para el cuidado integral de cada paciente.</p>
+            </div>
+            <div class="pt-3 flex justify-end">
+                <button type="button" data-modal-close="modal-terminos"
+                    class="px-6 py-2.5 rounded-full bg-brand-purple text-white font-label-md hover:bg-brand-violet transition-colors">
+                    Aceptar Términos
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         SCRIPTS DE INTERACTIVIDAD
+         ====================================================================== -->
+    <script src="js/main.js" defer></script>
+
+        <!-- Botón Volver Arriba -->
+    <button id="back-to-top" class="fixed bottom-6 right-6 z-40 w-12 h-12 rounded-full bg-brand-purple text-white shadow-lg shadow-brand-purple/30 flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 transform translate-y-4 hover:bg-brand-violet hover:-translate-y-1" aria-label="Volver al inicio">
+        <span class="material-symbols-outlined">arrow_upward</span>
+
+    </button>
+</body>
+
+</html>

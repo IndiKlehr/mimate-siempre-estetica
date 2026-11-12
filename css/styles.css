@@ -1,0 +1,28 @@
+/* ==========================================================================
+   ESTILOS BASE Y PERSONALIZADOS - MÍMATE SIEMPRE ESTÉTICA
+   ========================================================================== */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Contiene el scroll elástico sin bloquearlo por completo en iOS */
+    overscroll-behavior-y: contain;
+}
+
+/* El primer y último hijo del main no arrastran márgenes externos */
+main > :first-child {
+    margin-top: 0 !important;
+}
+
+main > :last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Ocultar barra de desplazamiento manteniendo la funcionalidad de scroll */
+::-webkit-scrollbar {
+    display: none;
+}
